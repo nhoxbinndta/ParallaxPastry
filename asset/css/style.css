@@ -1,0 +1,101 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+section p {
+  padding: 20px;
+  color: white;
+  font-size: larger;
+}
+
+h1 {
+  padding: 20px;
+  color: white;
+  background-color: black;
+  font-weight: 500;
+  letter-spacing: 10px;
+}
+
+h2 {
+  text-align: center;
+  padding: 50px 0 20px 0;
+}
+
+#header {
+  position: relative;
+  background-image: url("/asset/images/header-image.jpg");
+  min-height: 100vh;
+}
+
+#section-1 {
+  position: relative;
+  background-image: url("/asset/images/section-image-1.jpg");
+}
+
+#section-2 {
+  position: relative;
+  background-image: url("/asset/images/section-image-2.jpg");
+}
+
+#section-3 {
+  position: relative;
+  background-image: url("/asset/images/section-image-3.jpg");
+}
+
+#footer {
+  background-image: url("/asset/images/footer-image.jpg");
+  min-height: 100vh;
+  position: relative;
+}
+
+#footer p {
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+.parallax {
+  min-height: 50vh;
+  opacity: 0.6;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.center {
+  /* vertically and horizontally aligned */
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.medium-line-height {
+  line-height: 1.5;
+}
+
+.big-text {
+  font-size: 32px;
+}
+
+.letter-spacing {
+  letter-spacing: 5px;
+}
+
+.section-text {
+  padding: 0 50px 100px 50px;
+  text-align: justify;
+}
+
+.footer-text {
+  background-color: #282e34;
+  color: #fff;
+  padding: 50px;
+}
