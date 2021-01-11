@@ -1,6 +1,7 @@
 html,
 body,
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
@@ -48,23 +49,28 @@ h2 {
 
 #footer {
   background-image: url("/asset/images/footer-image.jpg");
-  height: 95vh;
+  height: 90vh;
   position: relative;
 }
 
 #copyright {
-  height: 5vh;
+  height: 10vh;
   background-color: black;
-  color: white;
+  color: gray;
   text-align: right;
-  padding-top: 15px;
-  padding-right: 20px;
+  padding-top: 10px;
+  padding-right: 10px;
 }
 
 #footer p {
   padding: 20px;
   background-color: black;
   color: white;
+}
+
+#copyright a {
+  text-decoration: none;
+  color: lightcoral;
 }
 
 .parallax {
@@ -83,6 +89,9 @@ h2 {
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
