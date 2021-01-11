@@ -28,7 +28,7 @@ h2 {
 #header {
   position: relative;
   background-image: url("/asset/images/header-image.jpg");
-  min-height: 100vh;
+  height: 100vh;
 }
 
 #section-1 {
@@ -48,8 +48,17 @@ h2 {
 
 #footer {
   background-image: url("/asset/images/footer-image.jpg");
-  min-height: 100vh;
+  height: 95vh;
   position: relative;
+}
+
+#copyright {
+  height: 5vh;
+  background-color: black;
+  color: white;
+  text-align: right;
+  padding-top: 15px;
+  padding-right: 20px;
 }
 
 #footer p {
@@ -59,7 +68,7 @@ h2 {
 }
 
 .parallax {
-  min-height: 50vh;
+  height: 50vh;
   opacity: 0.6;
   background-attachment: fixed;
   background-repeat: no-repeat;
